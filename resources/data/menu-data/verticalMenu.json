@@ -1,0 +1,86 @@
+{
+    "menu": [
+        {
+            "url": "home",
+            "name": "Home",
+            "icon": "home",
+            "slug": "home"
+        },
+        {
+            "name": "Pages",
+            "icon": "layout",
+            "dropdown": "1",
+            "slug": "",
+            "submenu": [
+                {
+                    "url": "dashboard/home-page",
+                    "name": "Home Page",
+                    "slug": "home-page",
+                    "icon": "circle"
+                },
+                {
+                    "url": "dashboard/about",
+                    "name": "About",
+                    "slug": "about",
+                    "icon": "circle"
+                }
+            ]
+        },
+        {
+            "url": "dashboard/contact",
+            "name": "Contact",
+            "icon": "mail",
+            "slug": "contact"
+        },
+        {
+            "url": "dashboard/sliders",
+            "name": "Sliders",
+            "icon": "image",
+            "slug": "sliders"
+        },
+        {
+            "url": "dashboard/services",
+            "name": "Services",
+            "icon": "list",
+            "slug": "services"
+        },
+        {
+            "url": "dashboard/categories",
+            "name": "Categories",
+            "icon": "menu",
+            "slug": "categories"
+        },
+        {
+            "url": "dashboard/projects",
+            "name": "Projects",
+            "icon": "file",
+            "slug": "projects"
+        },
+        {
+            "name": "Pages System",
+            "icon": "layout",
+            "dropdown": "1",
+            "slug": "Pages",
+            "submenu": [
+                {
+                    "url": "dashboard/all-pages",
+                    "name": "All Pages",
+                    "slug": "all-pages",
+                    "icon": "circle"
+                },
+                {
+                    "url": "dashboard/Add-page",
+                    "name": "Add Page",
+                    "slug": "add-page",
+                    "icon": "circle"
+                }
+            ]
+        },
+        {
+            "url": "dashboard/settings",
+            "name": "Settings",
+            "icon": "settings",
+            "slug": "settings"
+        }
+    ]
+}
